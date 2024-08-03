@@ -19,10 +19,10 @@ class Validations: Validator {
     //Validation Functions
     
     static func isUsernameValid(text: String) -> Bool {
-        return text.lowercased().elementsEqual("equamedia")
+        return text.lowercased().elementsEqual("tasker")
     }
     
     static func isPasswordValid(text: String) -> Bool {
-        return text.elementsEqual("eM123@@")
+        return text.elementsEqual("tasker123")
     }
 }
